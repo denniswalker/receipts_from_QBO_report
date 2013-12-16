@@ -1,9 +1,9 @@
 {
     "name": "denniswalker/qbreceipts",
     "description": "A phpunit selenium runner to click through all the transactions in a given Quickbook Online report and generate screenshots.",
-    "require": {
+    "require-dev": {
         "phpunit/phpunit": "*",
-        "phpunit/phpunit-selenium": "*"
+        "facebook/webdriver": "*"
     },
     "license": "MIT",
     "authors": [

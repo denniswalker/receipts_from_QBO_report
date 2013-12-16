@@ -430,59 +430,43 @@
         ]
     },
     {
-        "name": "phpunit/phpunit-selenium",
-        "version": "1.3.3",
-        "version_normalized": "1.3.3.0",
+        "name": "facebook/webdriver",
+        "version": "v0.3",
+        "version_normalized": "0.3.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/sebastianbergmann/phpunit-selenium.git",
-            "reference": "e89bfa1080dce9617c9b3e7760d50752974bfbd2"
+            "url": "https://github.com/facebook/php-webdriver.git",
+            "reference": "1b0facc33133f0ff990df8cebe7f2e19b2603da3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit-selenium/zipball/e89bfa1080dce9617c9b3e7760d50752974bfbd2",
-            "reference": "e89bfa1080dce9617c9b3e7760d50752974bfbd2",
+            "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/1b0facc33133f0ff990df8cebe7f2e19b2603da3",
+            "reference": "1b0facc33133f0ff990df8cebe7f2e19b2603da3",
             "shasum": ""
         },
         "require": {
-            "ext-curl": "*",
-            "ext-dom": "*",
-            "php": ">=5.3.3",
-            "phpunit/phpunit": ">=3.7.0@stable"
+            "php": ">=5.3.19",
+            "phpunit/phpunit": "3.7.*"
         },
-        "time": "2013-11-22 08:54:11",
+        "time": "2013-11-26 23:16:02",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
             "classmap": [
-                "PHPUnit/"
+                "lib/"
             ]
         },
         "notification-url": "https://packagist.org/downloads/",
-        "include-path": [
-            ""
-        ],
         "license": [
-            "BSD-3-Clause"
+            "Apache-2.0"
         ],
-        "authors": [
-            {
-                "name": "Sebastian Bergmann",
-                "email": "sb@sebastian-bergmann.de",
-                "role": "lead"
-            },
-            {
-                "name": "Giorgio Sironi",
-                "email": "info@giorgiosironi.com",
-                "role": "developer"
-            }
-        ],
-        "description": "Selenium Server integration for PHPUnit",
-        "homepage": "http://www.phpunit.de/",
+        "description": "A php client for WebDriver",
+        "homepage": "https://github.com/facebook/php-webdriver",
         "keywords": [
+            "facebook",
+            "php",
             "selenium",
-            "testing",
-            "xunit"
+            "webdriver"
         ]
     }
 ]
